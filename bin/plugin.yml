@@ -1,0 +1,62 @@
+main: me.CornyFlakez.polak.Main
+name: polak
+version: 1.0
+author: CornyFlakez
+api-version: 1.13
+description: This plugin allows users to get the Polak kit in the PvP arena.
+loadbefore: [LuckPerms-Bukkit-5.0.72.jar]
+permissions:
+  polak.arena.kit.use.sword:
+    description: Use the /polak sword command.
+  polak.arena.kit.use.stick:
+    description: Use the /polak stick command.
+  polak.arena.teleport:
+    description: Use the /arena command.
+  polak.config.reload:
+    description: Use the /config command.
+  polak.hub.use:
+    description: Use the /hub command.
+  polak.navigator.inventory.use.lobby:
+    description: Use the inventory in the lobby.
+  polak.navigator.use:
+    description: Use the /navigator command.
+  polak.npc.create:
+    description: Use the /createnpc command.
+  polak.npc.delete:
+    description: Use the /deletenpc(s) command.
+  polak.npc.list:
+    description: Use the /npcs command.
+    
+commands:
+  polak:
+    description: Receive the Polak kit.
+  arena:
+    description: Teleport to an arena.
+  hub:
+    description: Teleport to the server hub.
+    aliases: lobby
+  survival:
+    description: Teleport to the survival world.
+    aliases: sv
+  wilderness:
+    description: Teleport randomly.
+    aliases: wild
+  navigator:
+    description: Open the server navigator.
+    aliases: nav
+  config:
+    description: Reload the config.yml.
+    aliases: cfg
+  createnpc:
+    description: Creates an NPC.
+  deletenpc:
+    description: Deletes an NPC.
+    aliases: delnpc
+  deleteallnpcs:
+    description: Deletes all NPCs.
+    aliases: delallnpcs
+  npcs:
+    description: Lists all NPCs.
+  gm:
+    description: Alias for /gamemode command.
+    

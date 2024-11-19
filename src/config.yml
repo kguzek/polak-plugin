@@ -1,0 +1,11 @@
+deathMessages:
+  void:
+    "&7&o[D] &3&o{PLAYER} &6&odied."
+  lava:
+    "&7&o[D] &3&o{PLAYER} &6&odrowned in lava."
+    
+chatFormats:
+  default: "&6[&7Member&6] {SENDER}&7: {MESSAGE}"
+  admin: "&6[&eAdmin&6] {SENDER}&7: {MESSAGE}"
+  owner: "&6[&4Owner&6] {SENDER}&7: {MESSAGE}"
+    
