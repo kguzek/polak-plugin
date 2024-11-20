@@ -15,8 +15,11 @@ import me.CornyFlakez.polak.Files.DataManager;
 import me.CornyFlakez.polak.NPC.NPCCommands;
 import me.CornyFlakez.polak.NPC.NPCManager;
 
+<<<<<<< HEAD
 import java.util.Objects;
 
+=======
+>>>>>>> d6d09edb8142ad5d9bcd1826b42faf51d36a14a7
 public class Main extends JavaPlugin implements Listener {
 	
 	public static Main plugin;
